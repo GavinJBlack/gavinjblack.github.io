@@ -27,23 +27,41 @@
             text-align: center;
         }
         h1 {
-            margin-top: 20px;
+            margin-top: 1px;
             font-size: 3rem;
             font-weight: bold;
-            animation: rainbowGlow 3s infinite linear;
+            animation: rainbowGlow 3s infinite alternate;
+            display: inline-block;
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: white;
+            margin-bottom: 10px;
+        }
+        .image-container {
+            display: flex;
+            gap: 1px;
+            justify-content: center;
+            flex-wrap: wrap;
         }
         img {
-            max-width: 100%;
+            max-width: 30%;
             max-height: 45vh;
-            margin: 10px 0;
         }
     </style>
 </head>
 <body>
 <h1>Happy Birthday Jaid!</h1>
-<img src="jaidbirthdayimage1.jpg" alt="Happy Birthday Image 1">
-<img src="oakland-raiders-logo-transparent.png" alt="Happy Birthday Image 1">
-
-<img src="jaidbirthdayimage2.jpg" alt="Happy Birthday Image 2">
+<h2>Your favorite things</h2>
+<div class="image-container">
+    <img src="jaidbirthdayimage1.jpg" alt="Happy Birthday Image 1">
+    <img src="Flag-Puerto-Rico.jpg" alt="Happy Birthday Image 1">
+    <img src="oakland-raiders-logo-transparent.png" alt="Raiders Logo">
+    <img src="DnD-Symbol.jpg" alt="Happy Birthday Image 2">
+    <img src="unnmitchamed.jpg" alt="Happy Birthday Image 2">
+    <img src="kanye-kanye-weat.jpg" alt="Happy Birthday Image 2">
+    <img src="jaidbirthdayimage2.jpg" alt="Happy Birthday Image 2">
+    
+</div>
 </body>
 </html>
